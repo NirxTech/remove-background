@@ -1,0 +1,27 @@
+body {
+    @apply bg-gray-100 font-sans leading-normal tracking-normal;
+}
+
+h1 {
+    @apply text-3xl font-bold text-center text-gray-800 mt-10;
+}
+
+.container {
+    @apply max-w-4xl mx-auto p-4;
+}
+
+.upload-section {
+    @apply bg-white shadow-md rounded-lg p-6 mt-10;
+}
+
+.upload-button {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition duration-200;
+}
+
+.result-section {
+    @apply mt-10;
+}
+
+.result-image {
+    @apply max-w-full h-auto rounded-lg shadow-lg;
+}
